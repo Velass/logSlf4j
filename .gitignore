@@ -1,0 +1,38 @@
+# Ignore all files in the target/ directory
+target/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files and backup files
+*.temp
+*.bak
+*.swp
+*.swo
+*.old
+
+# Ignore IDE-specific files
+.vscode/
+*.iml
+.idea/
+*.class
+
+# Ignore Maven wrapper files
+.mvn/wrapper/maven-wrapper.jar
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled files and package files
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore other files you don’t want to commit
+*.out
+*.log
+
+# Optional: Ignore any log configuration files if they're generated or temporary
+logback.xml
