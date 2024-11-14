@@ -11,9 +11,10 @@ public class TestLogging {
     AppService appService;
 
     public static void main(String[] args) {
-        // Log d'un message de bienvenue
-        logger.info("Bienvenue dans le projet de démonstration de logging avec SLF4J et Logback!");
         AppService appService = new AppService();
-        appService.executer("test");
+        for (int i = 0; i < 100; i++) {
+            logger.info("Bienvenue dans le projet de démonstration de logging avec SLF4J et Logback!");
+            appService.executer("Paramètre de test " + i);
+        }
     }
 }
